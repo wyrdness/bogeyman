@@ -1,0 +1,414 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/bogeyman",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "bogeyman",
+    "name": "Bogeyman",
+    "aliases": [
+      {
+        "name": "Boogeyman",
+        "language": "English",
+        "region": "United States"
+      },
+      {
+        "name": "Bogyman",
+        "language": "English",
+        "region": "Various"
+      },
+      {
+        "name": "El Coco",
+        "language": "Spanish",
+        "region": "Spain, Latin America"
+      },
+      {
+        "name": "El Cuco",
+        "language": "Spanish",
+        "region": "Latin America"
+      },
+      {
+        "name": "Babau",
+        "language": "Italian",
+        "region": "Italy"
+      },
+      {
+        "name": "Butzemann",
+        "language": "German",
+        "region": "Germany"
+      },
+      {
+        "name": "Babaroga",
+        "language": "Serbian",
+        "region": "Balkans"
+      },
+      {
+        "name": "Baba Yaga",
+        "language": "Russian",
+        "region": "Russia (different figure, similar function)"
+      }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Urban Legend",
+    "tags": [
+      "universal",
+      "childhood-fear",
+      "shapeless",
+      "darkness",
+      "cautionary",
+      "parenting",
+      "folklore",
+      "global"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Universal childhood fear figure used to frighten children into good behavior, appearing as a shapeless monster that punishes naughty children and lurks in dark places.",
+      "full": "The Bogeyman is a universal figure found in nearly every culture worldwide, representing a shapeless monster or malevolent being used to frighten children into obedience and good behavior. Unlike most folklore creatures with specific characteristics, the Bogeyman is deliberately vague and formless - described variably as a monster under the bed, a creature in the closet, a man with a sack who abducts misbehaving children, or simply as lurking darkness itself. This lack of fixed form allows children's imaginations to fill in the terrifying details, making the Bogeyman uniquely personal to each child. The figure serves as a cautionary tool used by parents and caregivers to enforce bedtime, discourage dangerous behavior, and promote obedience. The Bogeyman exists in countless cultural variations (El Coco, Babau, Butzemann, etc.) but always serves the same fundamental purpose: personifying childhood fears and consequences of misbehavior. In modern times, the practice is considered questionable parenting by some, yet the Bogeyman persists in global folklore and popular culture, evolving with each generation."
+    },
+    "etymology": {
+      "origin": "Possibly from Middle English 'bogge' (frightening specter), or Welsh 'bwg' (ghost), or 'bug' (bugbear)",
+      "meaning": "Generic term for frightening supernatural being",
+      "first_use": "Term documented from 16th century England, concept much older"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Urban Legend / Folklore",
+      "subtype": "Cautionary Figure",
+      "variant": "Universal"
+    },
+    "related_phenomena": [
+      {
+        "id": "el-cuco",
+        "name": "El Cuco",
+        "relationship": "cultural_variant",
+        "description": "Spanish/Latin American version of child-frightening figure"
+      },
+      {
+        "id": "baba-yaga",
+        "name": "Baba Yaga",
+        "relationship": "similar_function",
+        "description": "Russian witch figure, different mythology but similar cautionary role"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": "Deliberately vague and variable",
+      "forms": [
+        {
+          "form": "Shapeless monster",
+          "description": "Formless creature of darkness",
+          "frequency": "common"
+        },
+        {
+          "form": "Man with sack",
+          "description": "Figure who abducts children in a sack",
+          "frequency": "common"
+        },
+        {
+          "form": "Creature under bed",
+          "description": "Monster hiding under child's bed",
+          "frequency": "very_common"
+        },
+        {
+          "form": "Monster in closet",
+          "description": "Creature lurking in closet or wardrobe",
+          "frequency": "very_common"
+        },
+        {
+          "form": "Shadow figure",
+          "description": "Dark shape in corners or doorways",
+          "frequency": "common"
+        },
+        {
+          "form": "Whatever the child imagines",
+          "description": "Deliberately undefined to allow imagination",
+          "frequency": "always"
+        }
+      ],
+      "features": [
+        {
+          "feature": "No fixed form",
+          "description": "Deliberately vague appearance allows child's imagination to create the terror",
+          "frequency": "defining"
+        },
+        {
+          "feature": "Associated with darkness",
+          "description": "Lurks in dark places - under bed, in closet, shadows",
+          "frequency": "always"
+        },
+        {
+          "feature": "Just out of sight",
+          "description": "Always where child cannot quite see",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Shape-shifting or formless entity that adapts to cultural context and individual fears"
+    },
+    "abilities": [
+      {
+        "ability": "Shapelessness",
+        "description": "No fixed form allows adaptation to any cultural context or fear",
+        "frequency": "always",
+        "evidence_level": "conceptual"
+      },
+      {
+        "ability": "Omnipresence in darkness",
+        "description": "Can be anywhere dark - under bed, in closet, outside window",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Child abduction",
+        "description": "Takes away naughty or misbehaving children",
+        "frequency": "common",
+        "evidence_level": "traditional"
+      },
+      {
+        "ability": "Punishment",
+        "description": "Punishes children for bad behavior",
+        "frequency": "always",
+        "evidence_level": "traditional"
+      }
+    ],
+    "behavior": {
+      "disposition": "malevolent",
+      "targets": "Misbehaving children specifically",
+      "moral_function": "Enforces good behavior through fear",
+      "patterns": [
+        "Lurks in darkness waiting for naughty children",
+        "Appears when children misbehave or stay up past bedtime",
+        "Abducts or punishes disobedient children",
+        "Never appears to good, obedient children",
+        "Disappears when lights are on or adults present"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Truly universal - nearly every culture has a version of the Bogeyman",
+      "continents": ["All"],
+      "universality": "Global phenomenon with countless regional variations"
+    },
+    "cultural_variants": [
+      {
+        "name": "El Coco / El Cuco",
+        "region": "Spain, Latin America, Portugal",
+        "description": "Coconut-headed or shapeless monster that eats children"
+      },
+      {
+        "name": "Babau",
+        "region": "Italy",
+        "description": "Old man who puts children in sack"
+      },
+      {
+        "name": "Butzemann",
+        "region": "Germany",
+        "description": "Bogey man who frightens children"
+      },
+      {
+        "name": "Babaroga",
+        "region": "Balkans",
+        "description": "Horned old woman who takes naughty children"
+      },
+      {
+        "name": "Baba Yaga",
+        "region": "Russia, Slavic countries",
+        "description": "Witch who eats children (more complex figure)"
+      },
+      {
+        "name": "Sack Man",
+        "region": "Various cultures",
+        "description": "Man with sack who abducts children"
+      },
+      {
+        "name": "Abu Rigl Maslukha",
+        "region": "Middle East",
+        "description": "Man with burned leg who takes children"
+      },
+      {
+        "name": "Namahage",
+        "region": "Japan",
+        "description": "Demon-like being who punishes lazy children"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "16th century",
+        "circa": true,
+        "source": "English usage; concept much older in various cultures"
+      },
+      "universality": "Appears independently in cultures worldwide, suggesting fundamental psychological archetype"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Universal childhood fear and parental discipline tool appearing independently across cultures",
+      "earliest_accounts": "Ancient variations exist in many cultures; formal documentation from medieval period onward",
+      "psychological_basis": "Externalization of childhood fears, boundary enforcement, stranger danger teaching"
+    },
+    "evolution": {
+      "traditional": "Formless monster, man with sack, creature in darkness",
+      "modern": "Adapts to contemporary fears - sometimes associated with kidnappers, home invaders, etc.",
+      "cultural_adaptation": "Each generation and culture reshapes the Bogeyman to fit current anxieties"
+    }
+  },
+
+  "purpose_and_function": {
+    "primary_functions": [
+      {
+        "function": "Behavioral enforcement",
+        "description": "Frighten children into obedience and good behavior",
+        "method": "Threat of punishment for misbehavior"
+      },
+      {
+        "function": "Bedtime enforcement",
+        "description": "Encourage children to go to bed and stay there",
+        "method": "Monster comes for children who stay up late"
+      },
+      {
+        "function": "Danger teaching",
+        "description": "Keep children away from dangerous places or behaviors",
+        "method": "Bogeyman lurks in dangerous locations"
+      },
+      {
+        "function": "Fear externalization",
+        "description": "Give children's natural fears a name and form",
+        "method": "Personify darkness and unknown"
+      }
+    ],
+    "psychological_aspects": [
+      "Provides concrete target for abstract childhood fears",
+      "Allows parents to redirect fears toward fictional threat",
+      "Teaches consequences of actions",
+      "Establishes boundaries and rules",
+      "May cause trauma or excessive fear in some children"
+    ]
+  },
+
+  "modern_perspectives": {
+    "parenting_debate": {
+      "pro": [
+        "Effective behavioral tool",
+        "Part of cultural tradition",
+        "Teaches consequences",
+        "Gives fears a form that can be overcome"
+      ],
+      "contra": [
+        "Creates unnecessary fear and anxiety",
+        "Undermines trust in parents",
+        "May cause sleep problems and nightmares",
+        "Better parenting methods exist",
+        "Considered manipulative by modern standards"
+      ]
+    },
+    "cultural_persistence": "Despite modern parenting advice against frightening children, Bogeyman figures persist in folklore, media, and cultural transmission"
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Parents threatening children with Bogeyman",
+        "Bedtime warnings and rituals",
+        "Cultural transmission through generations",
+        "Regional variations and names"
+      ],
+      "stories": [
+        "\"If you don't go to sleep, the Bogeyman will get you\"",
+        "\"The Bogeyman takes naughty children\"",
+        "Tales vary by culture and family"
+      ],
+      "universality": "One of few truly universal folklore figures, appearing independently worldwide"
+    },
+    "popular_culture": {
+      "literature": [
+        "Stephen King's horror incorporating childhood fears",
+        "Children's books addressing Bogeyman fears",
+        "Countless variations in folklore collections"
+      ],
+      "film_tv": [
+        "Boogeyman (2005) horror film",
+        "Nightmare on Elm Street (Freddy as Bogeyman archetype)",
+        "Monsters Inc. (subversion - monsters are afraid of children)",
+        "Various TV episodes featuring childhood fears"
+      ],
+      "music": [
+        "\"Bogeyman\" songs in multiple cultures",
+        "Lullabies warning of creatures"
+      ],
+      "other": [
+        "Halloween Bogeyman imagery",
+        "Therapy addressing Bogeyman fears",
+        "Parenting discussions about fear-based discipline"
+      ]
+    }
+  },
+
+  "theories": {
+    "psychological": [
+      {
+        "name": "Fear externalization",
+        "description": "Bogeyman allows children to externalize and confront natural developmental fears",
+        "evidence_cited": ["Universal appearance", "Childhood fear stages", "Psychological development"]
+      },
+      {
+        "name": "Parental control mechanism",
+        "description": "Tool for behavioral control when rational explanations fail with young children",
+        "evidence_cited": ["Consistent use across cultures", "Effectiveness in compliance"]
+      }
+    ],
+    "cultural": [
+      {
+        "name": "Cultural transmission",
+        "description": "Each generation recreates Bogeyman based on current fears and cultural context",
+        "evidence_cited": ["Evolution of forms", "Cultural variations", "Adaptability"]
+      },
+      {
+        "name": "Universal archetype",
+        "description": "Represents fundamental human fear of darkness and unknown",
+        "evidence_cited": ["Independent appearance in isolated cultures", "Consistency of core concept"]
+      }
+    ]
+  },
+
+  "sources": [
+    {
+      "id": "warner-beasts",
+      "type": "book",
+      "title": "No Go the Bogeyman: Scaring, Lulling, and Making Mock",
+      "authors": ["Marina Warner"],
+      "publication": "Farrar, Straus and Giroux",
+      "date": "1998",
+      "isbn": "978-0374522339"
+    },
+    {
+      "id": "opie-lore",
+      "type": "book",
+      "title": "The Lore and Language of Schoolchildren",
+      "authors": ["Iona Opie", "Peter Opie"],
+      "date": "1959"
+    }
+  ]
+}
